@@ -1,0 +1,236 @@
+
+
+li{
+    
+    list-style: none;
+}
+.menu a{
+   text-decoration: none;
+   padding: 10px 20px;
+}
+   
+.menu a:hover{
+    background-color: #191c32;
+    color:honeydew;
+    transition: ease-in 0.5s;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    position: inline;
+    right: 20px;
+    top: 10px;
+}
+
+#perfil-foto{
+    position: relative;
+    margin: 0px 60px;
+    border-radius: 60%;
+}
+
+.menu > li{
+    position: relative;
+display: inline-block;
+height: 35px;
+padding: 15px 10px 0px 10px;
+margin-right: 5px;
+}
+
+.menu li>ul{
+    display: none;
+position: absolute;
+top: 50px;
+left: 0px;
+background-color: #9FC8D9;
+box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+border-radius: 0px 0px 5px 5px;
+list-style: none;
+}
+
+
+
+#cajapadre {
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+#cajapadre > div {
+    
+    margin: 5px;
+    background-color: #CCCCCC;
+   
+    }
+
+#listas{
+    width: 960px;
+    margin: 0 auto;
+    padding: 50px;
+    
+}   
+
+#caja-1 p{
+    text-align: left;
+    margin:0px auto;  
+}
+
+
+#ImgDevelop{
+      position:relative;
+      margin: 0px auto;
+      
+      animation: mianimacion 1s ease-in-out 0s infinite alternate-reverse;
+  }
+  @keyframes mianimacion {
+   0%{
+      transform: scale(1); 
+    /*background:aqua;*/
+   }    
+  100%{
+      transform:scale(1.06);
+     /*background: greenyellow;*/
+  }  
+}
+
+    #caja-1 {
+
+    margin-top:360px;
+    flex: 1 1 400px;
+    }
+
+    /*habilidades */
+    #caja-2 {
+    margin-top: 160px;    
+    flex: 1 1 400px;
+
+    }
+
+   /*pasa tiempo */ 
+    #caja-3 {
+        margin-top: 160px; 
+       flex: 1 1 400px; 
+     
+    }
+    .img{
+        display: inline-block;
+        margin-left: 60px;
+        
+    }
+    img p{
+        display: table;
+    } 
+   
+   /*formacion */
+    #caja-4 {
+        margin-top: 160px;     
+        flex: 1 1 400px;
+    }
+     
+   
+  /*experiencia  */
+
+
+    #caja-5{
+        display: inline-flex;
+      margin-top: 160px; 
+      flex: 1 1 400px;
+      width: 960px;
+      
+    }
+    
+    
+    
+    #ImgDeco{
+   
+        width: 300px;
+        height: 160px;
+        border-radius: 15% ;
+    }
+    
+   .Challenge p{
+         color: #191c32;
+         font-size: 24px;
+    }
+
+    #caja-5 .botones1{
+        display: inline-flex;
+        margin: 60px 8px;
+    }
+
+    #ImgAhorcado{
+        width: 300px;
+        height: 160px;
+        border-radius: 15%;
+    }
+
+    #caja-5 .botones2{
+        display: inline-flex;
+        margin: 60px 8px;
+        
+    }
+
+    /*Contacto */
+    #caja-6{
+        display: inline-flex;
+        margin-top: 200px;
+       flex: 1 1 400px;
+    
+    }
+    #ImagenContacto{
+        border-radius: 15%;
+    }
+
+    .lateral{
+         
+        margin: 0px 30px;
+        
+    }
+    
+    #formulario{
+        
+        margin: 0px 30px;
+
+    }
+    
+    #formulario label{
+        display: block;
+        font-size: 16px;
+        margin: 0px auto;
+        
+        box-sizing: border-box;
+    }
+    
+    footer{
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    #pc-Challenge{
+        position: relative;
+
+       animation: mianimacion2 2s ease-in-out 0s infinite alternate-reverse;
+    }
+        @keyframes mianimacion2{
+        0%{ transform: scale(1.0); 
+        }
+        100%{
+            transform: scale(1.08)
+        }
+     }
+    
+    @media screen and (max-width:480px){
+        h1{
+            text-align: center;
+        }
+        nav{
+            
+            width: 100%;
+            display: none;
+        }
+       #ImgDevelop, #CajaPadre, #formulario {
+            width: auto;
+
+       }  
+    }
